@@ -47,3 +47,25 @@ table {
     border-spacing: 0;
 }
 
+#topo {
+    background-color:blueviolet;
+}
+
+#topo > h1{
+    font-size: 26px;
+    color: #ffffff;
+}
+#lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    min-width: 300px;
+    min-height: 400px;
+    background: #666;
+    margin: 20px;
+}
